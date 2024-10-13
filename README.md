@@ -22,6 +22,8 @@ This is an Arduino/Esp8266 Based Programmable Midi Controller for usage with tty
 * [Arduino IDE](https://www.arduino.cc/en/software/) or a similar programm
 
 ## Setup
+Wire the Board in this case a Arduino Nano like this 
+![Wiring Example](https://github.com/WandernderVogel/arduino_midi/blob/Easy/Arduino-Nano_midi_bb.png)
 Upload this code with you preffered IDE to your Microcontroller than start ttymidi with your Serial Port(Argument -s <your Port>) selected and start sending midi codes to your Laptop/Pc
 
 ## Usage
