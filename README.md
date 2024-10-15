@@ -22,7 +22,7 @@ This is an Arduino/Esp8266 Based Programmable Midi Controller for usage with tty
 * [Arduino IDE](https://www.arduino.cc/en/software/) or a similar programm
 
 ## Setup
-Upload this code with you preffered IDE to your Microcontroller than start ttymidi with your Serial Port(Argument -s <your Port>) selected and start sending midi codes to your Laptop/Pc
+Change the Ports to your used ones and upload this code with you preffered IDE to your Microcontroller than start ttymidi with your Serial Port(Argument -s <your Port>) selected and start sending midi codes to your Laptop/Pc
 
 ## Usage
 You can use this with the provided XML file for the DJ Programm [Mixxx](https://github.com/mixxxdj/mixxx)
