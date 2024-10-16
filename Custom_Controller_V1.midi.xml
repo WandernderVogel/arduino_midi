@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="2.0.0+">
+    <info>
+        <name>Arduino Nano V1</name>
+        <author>Wandernder Vogel</author>
+        <description>Custom Arduino Nano Midi Device Input</description>
+    </info>
+    <controller id="Arduino-Nano">
+        <scriptfiles>
+            <file filename="Arduino-nano-v1.js" functionprefix="arduino"/>
+        </scriptfiles>
+        <controls>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>1:Pause/Play</description>
+                <status>0x90</status>
+                <midino>0x0B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
